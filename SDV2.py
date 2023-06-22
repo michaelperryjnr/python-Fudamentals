@@ -17,13 +17,13 @@ if (dataType == "Y"):
     print ("The square of Mean Deviations are: ", str(absoluteMeanDeviation))
 #loop to check if user wants to find sample or population standard deviation and variance 
     popuSamp = input ("Do you want to calculate Popoulation Variance (P) or Sample Variance(S). P/S \n")
-#function for population standard deviation 
+#function for population standard deviation and variance 
     if (popuSamp == "P"):
         variance = sum(absoluteMeanDeviation)/sum(f)
         print ("The variance is: ", str(variance))
         standardDeviation = sqrt(variance)
         print ("The Standard Deviation is: ", + standardDeviation)
-#function for population variance 
+#function for sample standard deviation and variance 
     elif (popuSamp == "S"):
         variance = sum(absoluteMeanDeviation)/(sum(f) - 1)
         print ("The variance is: ", float(variance))
