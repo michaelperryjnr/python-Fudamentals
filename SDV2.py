@@ -3,7 +3,7 @@ print ("This code is written by \nMichael Perry Tettey")
 print ("This Program is To Calculate The Variance and Standard Deviation of a Set of Numbers")
 #to check the type of dataset, grouped or ungrouped
 dataType = input ("Does your data contain frequencies, Y/N\n")
-#loops and functions for grouped data sets
+#function and functions for grouped data sets
 if (dataType == "Y"):
     X, f = [float(x) for x in input("Enter your x-Values: ").split(",")], [float(x) for x in input("Enter the frequency for each x-Value: ").split(",")]
 #function to find mean 
@@ -15,7 +15,7 @@ if (dataType == "Y"):
 #function to find squares of the Mean Deviation 
     absoluteMeanDeviation= [x**2 for x in meanDeviation]
     print ("The square of Mean Deviations are: ", str(absoluteMeanDeviation))
-#loop to check if user wants to find sample or population standard deviation and variance 
+#function to check if user wants to find sample or population standard deviation and variance 
     popuSamp = input ("Do you want to calculate Popoulation Variance (P) or Sample Variance(S). P/S \n")
 #function for population standard deviation and variance 
     if (popuSamp == "P"):
@@ -41,7 +41,7 @@ elif (dataType == "N"):
     meanDeviaton = [x - mean for x in X]
 #function to find square of mean deviations
     absoluteSquareMeanDeviation = [x**2 for x in meanDeviaton]
-#loop for population or sample variance and standard 
+#function for population or sample variance and standard 
     popuSamp = input ("Do you want to calculate Popoulation Variance (P) or Sample Variance(S). P/S \n")
 #function for population variance and standard deviation 
     if (popuSamp == "P"):
