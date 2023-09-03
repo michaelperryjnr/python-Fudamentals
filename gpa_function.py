@@ -40,3 +40,4 @@ for course in range(course_num):
     print ("Exam Score:", exam_score)
     print ("GPA", ans_out)
     print ("Grade: ", gpa_letter)
+print("Good Bye Now")
