@@ -13,3 +13,4 @@ print(final_average)
 max_value = f"The maximum value is: {find_maximum(numbers)}"
 print(max_value)
 print("GoodBye Now")
+print("Don't forget to follow me")
