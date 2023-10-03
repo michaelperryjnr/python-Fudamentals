@@ -1,3 +1,4 @@
+print("Hey there, welcome to my GPA calculator")
 def gpa_1 (score):
     if score >= 90:
         ans = 4.0

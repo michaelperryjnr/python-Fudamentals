@@ -1,4 +1,5 @@
 #allow user to input year 
+print("Hey there don't forget to follow😊")
 year = int (input("Input a year\n"))
 #function to check the year by modulus 
 if (year % 4 == 0):
